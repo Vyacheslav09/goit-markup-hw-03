@@ -157,13 +157,16 @@ h3 {
 .section-business {
     padding: 120px 0;
 }
+.visibility {
+    visibility: hidden;
+}
 .business-table {
     display: flex;
     gap: 24px;
     align-items: center;
 }
-.business-table-list |{
-    flex-basis: calc((100% - 72px) / 4);
+.business-table-list {
+    width: calc((100% - 72px) / 4);
 }
 .section-title {
     font-weight: 500;
